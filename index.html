@@ -1,74 +1,132 @@
 <!DOCTYPE html>
+<html lang="es">
 
-<html lang="es"> 
-    <head>
-        <meta charset="UFT-8">
-        <meta name = "viewport" content = "width = device-width">
-        <title>Hotel ABC</title>
-        <link rel= "stylesheet" href = "css/reset.css/reset.css">
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LIBRERÍA BERNALLIS</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/common.css">
+    <link rel="stylesheet" href="styles/home.css">
+</head>
 
-   <body>
+<body>
+    <header>
+        <div class="lib">
+            <div class="lib-logo">
+                <img src="imagenes/libraryy.png" alt="Logo Libreria">
+                <h1>LIBRERÍA BERNALLIS</h1>
+            </div>
+            <div class="start">
+                <input class="start-search" type="search" placeholder="Buscar">
+            </div>
+            <div class="nav_var">
+                <nav class="navbar">
+                    <ul class="navbar-nav">
+                        <li><a href="index.html" class="nav-link active">Inicio</a></li>
+                        <li><a href="form.html" class="nav-link">Contacto</a></li>
+                    </ul>
+                </nav>
+            </div>
+    </header>
 
-    <div>
-       
-      <header> 
-         <div class = "caja">
-              <nav>
-                  <ul>
-                      <li><a href = "index.html">Home</a></li>
-                      <li><a href = "productos.html">Reservar</a></li>
-                   </ul>
-              </nav>
-           </div> 
-       </header> 
-    </div>
-      <main>
-           
-            <section class = "principal">
-          
-                <h2 class = "título-principal">Sobre el Hotel ABC</h2>
-                 <img class = "utensilios" src = "imagenes/estrella.jpg.png" alt = "utensilios de un barbero">
-                
-
-                 <p>Ubicada frente al mar, el <strong>Hotel ABC</strong> tiene lo mejor para que disfrutes tus vacaciones. Fundada en 2023, el Hotel ABC ya es destacado de forma internacional y conquista nuevos huéspedes diariamente.</p> 
- 
-                 <p id="mision"><em>Nuestra misión es: <strong>"ofrecer a nuestros huéspedes una experiencia única y placentera, donde la comodidad, la tranquilidad y la atención personalizada son los pilares fundamentales. Buscamos superar las expectativas de nuestros clientes, brindando servicios de calidad y creando un ambiente que inspire relajación y bienestar.
-                    "</strong></em></p> 
-
-         </section>
-            <section class = "mapa">
-                <h3 class = "título-principal">Ubicación</h3>
-                <p>El Hotel está ubicado a la orilla del Mar.</p>
-
-                <div class = "mapa-contenido">
-                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.449840047712!2d-46.63452058255615!3d-23.5881948!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5a2b2ed7f3a1%3A0xab35da2f5ca62674!2sCaelum%20-%20Education%20and%20Innovation!5e0!3m2!1ses!2sdo!4v1651172757755!5m2!1ses!2sdo" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <main>
+        <section class="about">
+            <div class="about-us">
+                <h2 class="about-us_text">¡Bienvenidos a <strong>Bernallis</strong>!</h2>
+                <p class="about-us_text2">Somos una librería virtual apasionada por la literatura, ofreciendo una amplia selección de libros que van desde la ficción hasta la no ficción. Nuestro objetivo es inspirar, enseñar y entretener a nuestros usuarios, promoviendo la diversidad de voces y perspectivas. Con un equipo comprometido y eventos virtuales, estamos aquí para ayudarte a encontrar el libro perfecto y conectarte con otros amantes de la lectura.</p>
+                <p class="about-us_text2">¡Gracias por visitarnos y feliz lectura!</p>
+            </div>
+            <section class="empty"></section>
+        </section>
+        <section class="lists">
+            <h2>Destacados</h2>
+            <div class="container">
+                <div class="book">
+                    <img src="imagenes/harry.jpg" alt="Libro 1">
+                    <h2>Harry Potter y la piedra filosofal</h2>
+                    <p><strong>Autor:</strong> J.K. Rowling</p>
+                    <p><strong>Género</strong>: Fantasía</p>
+                    <p><strong>Publicado:</strong> 1997</p>
+                    <p><strong>Páginas:</strong> 320</p>
+                    <p><strong>Descripción:</strong> Harry Potter nunca ha oído hablar de Hogwarts cuando las cartas comienzan a caer por debajo de la puerta en el número cuatro, Privet Drive. Dirigidas en tinta verde en pergamino amarillento con un sello púrpura, son rápidamente confiscadas por su tía y tío repugnantes. Luego, en el décimo primer cumpleaños de Harry, un hombre gigantesco de ojos de escarabajo llamado Rubeus Hagrid irrumpe con una noticia asombrosa: Harry Potter es un mago y tiene un lugar en la Escuela de Magia y Hechicería de Hogwarts. ¡Una increíble aventura está a punto de comenzar!</p>
+                    <p class="book-price">Precio: $20</p>
+                    <img class="icon" src="imagenes/cartshop.png" alt="logo de compra">
                 </div>
-            
-            </section>
-          <section class ="diferenciales">
-               <h3 class = "título-principal">Diferenciales</h3>
+                <div class="book">
+                    <img src="imagenes/ruise.jpg" alt="Libro 2">
+                    <h2>Matar a un ruiseñor</h2>
+                    <p><strong>Autor:</strong> Harper Lee</p>
+                    <p><strong>Género</strong>: Ficción</p>
+                    <p><strong>Publicado:</strong> 1960</p>
+                    <p><strong>Páginas:</strong> 281</p>
+                    <p><strong>Descripción:</strong> La inolvidable novela de una infancia en una ciudad sureña adormecida y la crisis de conciencia que la sacudió, Matar a un ruiseñor se convirtió tanto en un éxito instantáneo como en un éxito crítico cuando se publicó por primera vez en 1960. Luego ganó el Premio Pulitzer en 1961 y más tarde fue adaptado en una película ganadora del Premio de la Academia, también un clásico.</p>
+                    <p class="book-price">Precio: $25</p>
+                    <img class="icon" src="imagenes/cartshop.png" alt="logo de compra">
+                </div>
+                <div class="book">
+                    <img src="imagenes/guard.jpg" alt="Libro 3">
+                    <h2>El guardián entre el centeno</h2>
+                    <p><strong>Autor:</strong> J.D. Salinger</p>
+                    <p><strong>Género</strong>: Ficción</p>
+                    <p><strong>Publicado:</strong> 1951</p>
+                    <p><strong>Páginas:</strong> 224</p>
+                    <p><strong>Descripción:</strong> El héroe narrador de El guardián entre el centeno es un niño antiguo de dieciséis años, un nativo de Nueva York llamado Holden Caulfield. A través de circunstancias que tienden a excluir la descripción adulta de segunda mano, deja su escuela secundaria preparatoria en Pensilvania y se esconde en la ciudad de Nueva York durante tres días.</p>
+                    <p class="book-price">Precio: $25</p>
+                    <img class="icon" src="imagenes/cartshop.png" alt="logo de compra">
+                </div>
+                <div class="book">
+                    <img src="imagenes/cien.jpg" alt="Libro 4">
+                    <h2>Cien años de soledad</h2>
+                    <p><strong>Autor:</strong> Gabriel García Márquez</p>
+                    <p><strong>Género</strong>: Realismo mágico</p>
+                    <p><strong>Publicado:</strong> 1967</p>
+                    <p><strong>Páginas:</strong> 471</p>
+                    <p><strong>Descripción:</strong> Cien años de soledad cuenta la historia de la familia Buendía a lo largo de varias generaciones en el ficticio pueblo de Macondo. La novela es considerada una obra maestra del realismo mágico y ha sido aclamada internacionalmente por su estilo innovador y su exploración de temas como el tiempo, la soledad y el destino.</p>
+                    <p class="book-price">Precio: $24</p>
+                    <img class="icon" src="imagenes/cartshop.png" alt="logo de compra">
+                </div>
+                <div class="book">
+                    <img src="imagenes/don.jpg" alt="Libro 5">
+                    <h2>Don Quijote de la Mancha</h2>
+                    <p><strong>Autor:</strong> Miguel de Cervantes</p>
+                    <p><strong>Género</strong>: Novela de caballerías</p>
+                    <p><strong>Publicado:</strong> 1605</p>
+                    <p><strong>Páginas:</strong> Variable</p>
+                    <p<strong>Descripción:</strong> Don Quijote de la Mancha es una de las obras más importantes de la literatura española y universal. Narra las aventuras de un hidalgo que, enloquecido por la lectura de libros de caballerías, decide convertirse en caballero andante y recorrer el mundo en busca de aventuras junto a su fiel escudero, Sancho Panza. La obra es una sátira de las novelas de caballerías y una profunda reflexión sobre la realidad y la ficción.</p>
+                    <p class="book-price">Precio: $30</p>
+                    <img class="icon" src="imagenes/cartshop.png" alt="logo de compra">
+                </div>
+                <div class="book">
+                    <img src="imagenes/amor.jpg" alt="Libro 6">
+                    <h2>El amor en los tiempos del cólera</h2>
+                    <p><strong>Autor:</strong> Gabriel García Márquez</p>
+                    <p><strong>Género</strong>:Novela romántica</p>
+                    <p><strong>Publicado:</strong> 1985</p>
+                    <p><strong>Páginas:</strong> 347</p>
+                    <p><strong>Descripción:</strong> El amor en los tiempos del cólera es una novela del escritor colombiano Gabriel García Márquez. Ambientada en la costa caribeña de Colombia a fines del siglo XIX y principios del XX, la historia sigue la vida de Florentino Ariza y Fermina Daza, quienes se enamoran en su juventud pero se separan debido a circunstancias adversas. A lo largo de décadas, Florentino espera pacientemente el momento adecuado para declarar su amor a Fermina.</p>
+                    <p class="book-price">Precio: $25</p>
+                    <img class="icon" src="imagenes/cartshop.png" alt="logo de compra">
+                </div>
+            </div>
 
-               <div class = "contenido-diferenciales">
-                   <ul class="lista-diferenciales">
-                       <li class="items">Atención personalizada  a los clientes.</li>
-                       <li class="items">Spa.</li>
-                       <li class="items" >Restaurante Gourmet.</li>
-                       <li class="items">Servicio a la habitación.</li>
-                       <li class="items">Wifi.</li>
-                       <li class="items">piscinas climatizadas.</li>
-                 </ul><img src = "imagenes/diferencia.jpg" class="imagen-diferenciales">
-               </div>
-               <div class = "video">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/C186yiH_Qmo?start=448" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>               </div>
-            </section>
-        </main>
-     <footer>
-        <p class = "copyright">&copy Copyright Hotel ABC-2015</p>
-     </footer>
-    </body>
-   </html>
+                
+        </section>
+    </main>
+    <footer>
+        <div class="footer_menu">
+            <a href="index.html">Inicio</a>
+            <a href="form.html">Contacto</a>
+        </div>
+        <div class="footer_contact">
+            <img src="imagenes/instagram.png" alt="logo Instagram">
+            <span>@bernallis_libreria</span>
+        </div>
+        <div class="footer_copy">
+            <p>&copy; 2024 Libreria Bernallis</p>
+            <p>Todos los derechos reservados</p>
+        </div>
+    </footer>
+</body>
+
+</html>
